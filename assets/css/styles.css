@@ -98,7 +98,6 @@ p, li, a, span {
 }
 
 .main-title {
-    text-transform: uppercase;
     font-size: 5rem;
     margin-bottom: 1rem;
     font-family: "Headache";
