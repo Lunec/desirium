@@ -186,17 +186,28 @@ p, li, a, span {
 }
 
 .team-member-name {
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 1.8rem;
+    font-size: 2.6rem;
     font-weight: bold;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.team-member-desc {
+    font-size: 2rem;
+    width: 90%;
+    margin: 0rem auto 2rem auto;
+    text-align: justify;
+
 }
 
 .team-member-role {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bold;
-    margin-top: .5rem;
+    margin: 1rem 0 2rem 0;
+
 }
 
 #contact {
@@ -264,6 +275,7 @@ p, li, a, span {
     padding: 0.8rem 1.8rem;
     cursor: pointer;
     transition: all 500ms;
+    font-size: 1.4rem;
 }
 
 .contact-form input[type='submit']:hover {
